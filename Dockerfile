@@ -1,5 +1,7 @@
 FROM alpine:3.4
 
+MAINTAINER Antonino Abbate "ninoabbate@gmail.com"
+
 ADD my.cnf /etc/mysql/my.cnf
 
 RUN apk update && \
